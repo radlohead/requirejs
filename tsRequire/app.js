@@ -1,0 +1,8 @@
+"use strict";
+requirejs.config({
+    baseUrl: '/',
+    paths: {
+        app: 'app'
+    }
+});
+requirejs(['app/main']);
